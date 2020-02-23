@@ -1,0 +1,318 @@
+/* Estilo Gerais */
+
+body {
+    background-color: #F7EDD8;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #F7EDD8;
+}
+
+
+.quote  {
+    padding: 10px 0;
+    margin-top: 250px;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+.quote p:after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color:  #F7EDD8;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.quote cite{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #F7EDD8;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size:18px;
+    color: #41761E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.subtitulo:after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color:  #41761E;
+    display: block;
+    margin: 5px auto;
+    margin-bottom: 20px;
+}
+
+.call_action {
+    text-align: center;
+    clear: both
+}
+
+.call_action p {
+    color: #18332C;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: #18332C;
+    background-color: #6DA319;
+    padding: 10px 38px;
+    font-weight: bold;
+
+}
+
+.button:hover {
+    color: #6DA319;
+    background-color: #18332C;
+}
+
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #18332C;
+    z-index: 10;
+}
+
+.header img {
+   padding-top: 10px;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px 0
+}
+
+.header_menu ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: .1em;
+    line-height: 30px;
+    color: #F7EDD8;
+}
+
+.header_menu ul li a:hover{
+    color: #6DA319;
+}
+
+/* Intro */
+
+.intro {
+    width: 100%;
+    height: 380px;
+    background: url("../img/bg-inicio2.jpg") no-repeat center;
+    background-size: cover;
+    margin-top:80px;
+}
+
+/* produtos */
+
+.produtos {
+ padding: 40px 0;
+}
+
+.produtos img {
+    margin-bottom: -4.4px
+}
+
+.prod_cactus {
+    float: left;
+}
+
+.prod_cactus p {
+    width: 580px;
+    height: 80px;
+    background-color: #18332C;
+    color: #F7EDD8;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.prod_orelha_elegans {
+    float: right;
+}
+
+.prod_orelha_elegans p {
+    width: 340px;
+    height: 40px;
+    background-color: #18332C;
+    color: #F7EDD8;
+    margin-bottom: 20px; 
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Diferencial */
+
+.diferencial {
+    width: 100%;
+    height: 360px;
+    background: url("../img/bg-diferencial.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.diferencial h2 {
+    color: #F7EDD8;
+    margin-top: 20px;
+
+}
+
+.diferencial h2:after{
+    background-color: #F7EDD8;
+}
+
+.diferencial .bg_black{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    opacity: 0.7;
+    margin-top: 140px;
+}
+
+.diferencial .bg_black p {
+    padding: 30px;
+    text-align: center;
+}
+
+.diferencial .call_action {
+    margin-top: 20px;
+}
+
+.diferencial .call_action p {
+    color: #F7EDD8;
+}
+
+/* Cuidados */
+
+
+.cuidados h2 {
+    margin-top: 30px;
+}
+.cuidados h2:after {
+    margin-bottom: 40px;
+}
+
+.cuidados h3 {
+    font-size: 14px;
+}
+
+#plant_cuidado{
+    text-align: center;
+}
+
+.cuidados:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/icones/flechas.svg") no-repeat center;
+    z-index: -1;
+    width: 520px;
+    height: 390px;
+    margin-left: 220px;
+    margin-top: 23px;
+}
+
+.cuidados h3:after {
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.cuidados-left p, .cuidados-right p {
+    color: #18332C;
+    margin-bottom: 40px;
+    line-height: 20px ;
+    height: 100px;
+
+}
+
+.cuidados-left {
+    float: left;
+}
+
+.cuidados-right {
+    float: right;
+}
+
+.cuidados-left, .cuidados-right {
+    text-align: center;
+    height: 450px;
+}
+
+
+.cuidados-left img, .cuidados-right img {
+    margin-bottom: 10px;
+}
+
+
+/* Quote inferior */
+
+.quote_inferior {
+    width: 100%;
+    height: 220px;
+    background: url("../img/bg-quote-footer.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.quote_inferior .quote {
+    margin-top: 30px;
+}
+
+.quote_inferior .quote p , cite {
+    margin-top: 100px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #41761E;
+    padding: 25px 0;
+}
+
+.footer h3 {
+    color: #F7EDD8;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footer h3:after {
+    background: #F7EDD8;
+    margin: 5px 0px 8px 0; 
+}
+
+.historia_f p, .contato_f li {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F7EDD8;
+
+}
+
+.redes_f li {
+    display: inline;
+    margin-right: 10px;
+}
